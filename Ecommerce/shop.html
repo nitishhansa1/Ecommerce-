@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shop</title>
+    <link rel="stylesheet" href="shop.css">
+</head>
+<body>
+    <div class="flex-box">
+        <div class="left">
+            <div class="big-img">
+                <img src="img-1.jpg" alt="">
+            </div>
+            <div class="images">
+                <div class="small-img">
+                    <img src="blue.jpg" onclick="showImg(this.src)">
+                </div>
+                <div class="small-img">
+                    <img src="grey-img.jpg" onclick="showImg(this.src)">
+                </div>
+                <div class="small-img">
+                    <img src="black.jpg" onclick="showImg(this.src)">
+                </div>
+                <div class="small-img">
+                    <img src="hard worker.jpg" onclick="showImg(this.src)">
+                </div>
+                <div class="small-img">
+                    <img src="small-img.jpg" onclick="showImg(this.src)">
+                </div>
+            </div>
+        </div>
+        
+        <div class="right">
+            <div class="url">Home > Shop > T-Shirt</div>
+            <div class="pname">T-Shirts for men</div>
+            <div class="ratings">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star-half"></ion-icon>
+            </div>
+            <div class="price">$40.00</div>
+            <div class="size">
+                <div class="psize active">M</div>
+                <div class="psize">L</div>
+                <div class="psize">XL</div>
+                <div class="psize">XXL</div>
+            </div>
+            <div class="quantity">
+                <p>Quantity</p>
+                <input type="number" min="1" max="5" value="1">
+            </div>
+            <div class="btn-box">
+                <button class="cart-btn">Add to Cart</button>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let bigImg = document.querySelector('.big-img img');
+        function showImg(pic){
+            bigImg.src = pic;
+        }
+    </script>
+    
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+    
+</body>
+</html>

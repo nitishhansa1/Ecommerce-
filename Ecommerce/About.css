@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:aliceblue;
+    color: black;
+}
+
+body{
+    font-family: "Cinzel", serif;
+}
+
+.small-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 60px;
+}
+
+
+h1{
+    margin-top: 50px;
+    font-size: 60px;
+    text-align: center;
+}
+
+.content{
+    margin: 60px;
+}
+
+.content h3{
+    margin-top: 100px;
+    font-size: 40px;
+    letter-spacing: 1;
+    line-height: 2;
+}
+
+.content p{
+    margin-top: 15px;
+    font-size: 20px;
+    letter-spacing: 1;
+    line-height: 1.2;
+    position: relative;
+    margin-right: 800px;
+}
+
+.social ion-icon{
+    justify-content: space-between;
+    color: #00abf0;
+    font-size: 25px;
+    margin-top: 100px;
+    margin: 5px;
+
+}
+
+.container{
+    margin: 100px 60px;
+}
+
+.image{
+    float: right;
+    position: relative;
+    right: 190px;
+    bottom: 430px;  
+}
+
+.med{
+    border-top: 2px solid;
+    float: left;
+    margin-left: 80px;
+}
+
+.bottom{
+    border-top: 2px solid;
+    margin-top: 20px;
+    float: right;
+    margin-right: 80px;
+}
+
+.img-b{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+    margin-top: 74%;
+}
+
+
